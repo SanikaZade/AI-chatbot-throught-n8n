@@ -966,7 +966,7 @@ Built using:
 
 ---
 
-## 📞 Support
+##  Requirements 
 
 If the workflow does not work after import, check the following in order:
 
