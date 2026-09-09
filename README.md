@@ -104,10 +104,14 @@ The AI Agent acts as the central component of the workflow.
 Chat Trigger
       ↓
 AI Agent
+
 ```
 
-<img width="501" height="647" alt="Screenshot 2026-09-09 111847" src="https://github.com/user-attachments/assets/5753ee9f-c829-43c6-87d9-37a87ddcd79f" />
 <img width="502" height="641" alt="Screenshot 2026-09-09 111830" src="https://github.com/user-attachments/assets/0bd88c21-8e5d-48e3-8cb4-fc5553078a15" />
+
+
+<img width="501" height="647" alt="Screenshot 2026-09-09 111847" src="https://github.com/user-attachments/assets/5753ee9f-c829-43c6-87d9-37a87ddcd79f" />
+
 
 The agent is responsible for understanding the user's request and generating an appropriate response.
 
@@ -154,10 +158,9 @@ For example:
 
 <img width="943" height="485" alt="Screenshot 2026-09-09 112127" src="https://github.com/user-attachments/assets/fc7cb0dd-d255-42ca-8442-4549128aefb5" />
 
-```
+---
 
 The memory is connected directly to the AI Agent as its AI memory component.
-
 ---
 
 ### Step 5 – Google Sheets Integration
@@ -324,6 +327,7 @@ The configured Google Sheets document is supplied to the node through its docume
 <img width="1177" height="325" alt="Screenshot 2026-09-09 111908" src="https://github.com/user-attachments/assets/0d660c3a-ac3c-4fd3-a2df-a3ee90c323a1" />
 
 
+
 # 🔗 Node Connections
 
 The workflow uses the following connections:
@@ -367,6 +371,7 @@ Create sheet in Google Sheets
 Therefore, the AI Agent is the central component connecting all the AI functionality.
 
 ---
+
 
 # 🛠️ Technology Stack
 
@@ -447,24 +452,6 @@ In n8n:
 6. Return to the workflow.
 
 The Gemini node is connected to the AI Agent as its language model.
-
-### Important
-
-Do **not** publish API keys or credentials in GitHub.
-
-Never put credentials directly into:
-
-```text
-README.md
-```
-
-or:
-
-```text
-AI chatbot.json
-```
-
-when sharing the project publicly.
 
 ---
 
@@ -804,8 +791,7 @@ A simple repository structure can be:
 AI-Chatbot/
 │
 ├── AI chatbot.json
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ### `AI chatbot.json`
@@ -816,20 +802,7 @@ Contains the exported n8n workflow.
 
 Contains project documentation, installation instructions, architecture, configuration, and troubleshooting information.
 
-### `.gitignore`
 
-Can be used to prevent accidental commits of local or sensitive files.
-
-Example:
-
-```text
-.env
-*.key
-*.pem
-credentials.json
-```
-
----
 
 # 🌱 Possible Future Improvements
 
