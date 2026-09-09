@@ -126,7 +126,7 @@ AI Agent
    ↓
 Google Gemini
    ↓
-AI-generated response
+AI-generated response 
 ```
 
 Google Gemini provides the natural-language understanding and response-generation capabilities required by the chatbot.
@@ -202,6 +202,7 @@ Chat Trigger → AI Agent
 ## 1. When Chat Message Received
 
 **Node Type:**
+
 
 ```text
 @n8n/n8n-nodes-langchain.chatTrigger
