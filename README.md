@@ -987,6 +987,6 @@ If the workflow does not work after import, check the following in order:
 7. AI Agent connections
         ↓
 8. Workflow execution logs
-``` 
+```
 
 This sequence helps identify most configuration-related problems quickly.
